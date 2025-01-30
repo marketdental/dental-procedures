@@ -1,0 +1,335 @@
+{
+  "Diagnostic": {
+    "Examinations": {
+      "D0120": {
+        "code_type": "Examination",
+        "name": "Periodic Oral Evaluation",
+        "time": {
+          "min": 15,
+          "max": 20,
+          "unit": "minutes"
+        },
+        "notes": "Established patient, routine evaluation"
+      },
+      "D0140": {
+        "code_type": "Examination",
+        "name": "Limited Oral Evaluation - Problem Focused",
+        "time": {
+          "min": 10,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "For a specific problem or emergency"
+      },
+      "D0150": {
+        "code_type": "Examination",
+        "name": "Comprehensive Oral Evaluation - New or Established Patient",
+        "time": {
+          "min": 45,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "notes": "Includes full charting and treatment planning"
+      },
+      "D0160": {
+        "code_type": "Examination",
+        "name": "Detailed and Extensive Oral Evaluation",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "For complex cases, including review of records"
+      }
+    },
+    "Radiographs": {
+      "D0210": {
+        "code_type": "Radiograph",
+        "name": "Intraoral - Complete Series",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "Full mouth series"
+      },
+      "D0220": {
+        "code_type": "Radiograph",
+        "name": "Intraoral - Periapical - First Film",
+        "time": {
+          "min": 5,
+          "max": 7,
+          "unit": "minutes"
+        },
+        "notes": "Single X-ray"
+      },
+      "D0274": {
+        "code_type": "Radiograph",
+        "name": "Bitewing - Single Film",
+        "time": {
+          "min": 5,
+          "max": 7,
+          "unit": "minutes"
+        },
+        "notes": "Per side"
+      },
+      "D0330": {
+        "code_type": "Radiograph",
+        "name": "Panoramic Film",
+        "time": {
+          "min": 10,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Including patient preparation"
+      }
+    }
+  },
+  "Preventive": {
+    "Prophylaxis": {
+      "D1110": {
+        "code_type": "Prophylaxis",
+        "name": "Adult Prophylaxis",
+        "time": {
+          "min": 30,
+          "max": 45,
+          "unit": "minutes"
+        },
+        "notes": "Routine cleaning for patients with healthy gums"
+      },
+      "D1120": {
+        "code_type": "Prophylaxis",
+        "name": "Child Prophylaxis",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "Routine cleaning for pediatric patients"
+      }
+    },
+    "Fluoride": {
+      "D1206": {
+        "code_type": "Fluoride",
+        "name": "Topical Fluoride Application",
+        "time": {
+          "min": 5,
+          "max": 10,
+          "unit": "minutes"
+        },
+        "notes": "Not including drying time"
+      }
+    },
+    "Sealants": {
+      "D1351": {
+        "code_type": "Sealant",
+        "name": "Sealant - Per Tooth",
+        "time": {
+          "min": 10,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Common for pediatric or high-risk patients"
+      }
+    }
+  },
+  "Restorative": {
+    "Amalgam Restorations": {
+      "D2140": {
+        "code_type": "Amalgam Restoration",
+        "name": "Amalgam - One Surface, Primary or Permanent",
+        "time": {
+          "min": 30,
+          "max": 40,
+          "unit": "minutes"
+        },
+        "notes": "Including anesthetic and preparation"
+      },
+      "D2150": {
+        "code_type": "Amalgam Restoration",
+        "name": "Amalgam - Two Surfaces, Primary or Permanent",
+        "time": {
+          "min": 40,
+          "max": 50,
+          "unit": "minutes"
+        },
+        "notes": "Including anesthetic and preparation"
+      }
+    },
+    "Composite Restorations": {
+      "D2330": {
+        "code_type": "Composite Restoration",
+        "name": "Composite - One Surface, Anterior",
+        "time": {
+          "min": 40,
+          "max": 50,
+          "unit": "minutes"
+        },
+        "notes": "Including bonding and curing time"
+      },
+      "D2331": {
+        "code_type": "Composite Restoration",
+        "name": "Composite - Two Surfaces, Anterior",
+        "time": {
+          "min": 50,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "notes": "Including bonding and curing time"
+      }
+    },
+    "Crowns": {
+      "D2740": {
+        "code_type": "Crown",
+        "name": "Crown - Porcelain/Ceramic",
+        "time": {
+          "preparation": {
+            "min": 90,
+            "max": 120,
+            "unit": "minutes"
+          },
+          "temporary": {
+            "min": 20,
+            "max": 30,
+            "unit": "minutes"
+          },
+          "cementation": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      }
+    }
+  },
+  "Endodontics": {
+    "Root Canals": {
+      "D3310": {
+        "code_type": "Root Canal",
+        "name": "Root Canal - Anterior Tooth",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "Standard uncomplicated case"
+      },
+      "D3320": {
+        "code_type": "Root Canal",
+        "name": "Root Canal - Bicuspid Tooth",
+        "time": {
+          "min": 90,
+          "max": 120,
+          "unit": "minutes"
+        },
+        "notes": "Standard uncomplicated case"
+      },
+      "D3330": {
+        "code_type": "Root Canal",
+        "name": "Root Canal - Molar Tooth",
+        "time": {
+          "min": 120,
+          "max": 150,
+          "unit": "minutes"
+        },
+        "notes": "Standard molar treatment"
+      }
+    }
+  },
+  "Oral Surgery": {
+    "Extractions": {
+      "D7140": {
+        "code_type": "Extraction",
+        "name": "Extraction - Single Tooth",
+        "time": {
+          "min": 30,
+          "max": 45,
+          "unit": "minutes"
+        },
+        "notes": "Including anesthetic time"
+      },
+      "D7210": {
+        "code_type": "Extraction",
+        "name": "Extraction - Erupted Tooth with Simple Removal",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "Uncomplicated extraction"
+      }
+    }
+  },
+  "Prosthodontics": {
+    "Removable": {
+      "D5110": {
+        "code_type": "Removable Prosthodontics",
+        "name": "Complete Upper Denture",
+        "time": {
+          "impression": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          },
+          "try_in": {
+            "min": 30,
+            "max": 45,
+            "unit": "minutes"
+          },
+          "delivery": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      }
+    },
+    "Fixed": {
+      "D2740": {
+        "code_type": "Fixed Prosthodontics",
+        "name": "Crown - Porcelain/Ceramic",
+        "time": {
+          "preparation": {
+            "min": 90,
+            "max": 120,
+            "unit": "minutes"
+          },
+          "temporary": {
+            "min": 20,
+            "max": 30,
+            "unit": "minutes"
+          },
+          "cementation": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      }
+    }
+  },
+  "Orthodontics": {
+    "Treatment": {
+      "D8070": {
+        "code_type": "Orthodontic Treatment",
+        "name": "Comprehensive Orthodontic Treatment",
+        "time": {
+          "initial": {
+            "min": 60,
+            "max": 90,
+            "unit": "minutes"
+          },
+          "adjustment": {
+            "min": 15,
+            "max": 30,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Full treatment, including adjustments"
+      }
+    }
+  }
+}
