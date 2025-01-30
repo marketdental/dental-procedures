@@ -1,0 +1,584 @@
+{
+  "Diagnostic": {
+    "Examinations": {
+      "01101": {
+        "code_type": "Examination",
+        "name": "Complete Examination - First Visit",
+        "time": {
+          "min": 45,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "notes": "Includes full charting and treatment planning"
+      },
+      "01102": {
+        "code_type": "Examination",
+        "name": "Complete Examination - New Patient/New Dentist",
+        "time": {
+          "min": 40,
+          "max": 50,
+          "unit": "minutes"
+        },
+        "notes": "Includes review of medical history"
+      },
+      "01103": {
+        "code_type": "Examination",
+        "name": "Complete Examination - Emergency",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "Focused on specific problem area"
+      },
+      "01204": {
+        "code_type": "Examination",
+        "name": "Specific Examination - Emergency",
+        "time": {
+          "min": 15,
+          "max": 20,
+          "unit": "minutes"
+        },
+        "notes": "Problem-focused examination"
+      },
+      "01401": {
+        "code_type": "Examination",
+        "name": "Periodic Oral Examination - Previous Patient",
+        "time": {
+          "min": 15,
+          "max": 20,
+          "unit": "minutes"
+        },
+        "notes": "Regular recall examination"
+      },
+      "01501": {
+        "code_type": "Examination",
+        "name": "Oral Cancer Screening",
+        "time": {
+          "min": 5,
+          "max": 10,
+          "unit": "minutes"
+        },
+        "notes": "Often part of a complete examination"
+      }
+    },
+    "Radiographs": {
+      "02101": {
+        "code_type": "Radiograph",
+        "name": "Intraoral - Complete Series",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "Full mouth series"
+      },
+      "02102": {
+        "code_type": "Radiograph",
+        "name": "Intraoral - Periapical - First Film",
+        "time": {
+          "min": 5,
+          "max": 7,
+          "unit": "minutes"
+        },
+        "notes": "Single X-ray"
+      },
+      "02141": {
+        "code_type": "Radiograph",
+        "name": "Bitewing - First Film",
+        "time": {
+          "min": 5,
+          "max": 7,
+          "unit": "minutes"
+        },
+        "notes": "Per side"
+      },
+      "02201": {
+        "code_type": "Radiograph",
+        "name": "Extraoral - Panoramic Film",
+        "time": {
+          "min": 10,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Including patient preparation"
+      },
+      "02211": {
+        "code_type": "Radiograph",
+        "name": "Cone Beam CT (CBCT)",
+        "time": {
+          "min": 10,
+          "max": 20,
+          "unit": "minutes"
+        },
+        "notes": "For complex cases"
+      }
+    },
+    "Impressions": {
+      "02301": {
+        "code_type": "Impression",
+        "name": "Study Models/Impressions",
+        "time": {
+          "min": 15,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "For diagnostic purposes"
+      }
+    }
+  },
+  "Preventive": {
+    "Scaling": {
+      "11111": {
+        "code_type": "Scaling",
+        "name": "Scaling - First Time Unit",
+        "time": {
+          "min": 15,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Basic cleaning unit"
+      },
+      "11117": {
+        "code_type": "Scaling",
+        "name": "Complex Scaling - First Unit",
+        "time": {
+          "min": 15,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Heavy calculus removal"
+      }
+    },
+    "Polishing": {
+      "11101": {
+        "code_type": "Polishing",
+        "name": "Polishing - One Time Unit",
+        "time": {
+          "min": 15,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Standard polish"
+      }
+    },
+    "Fluoride": {
+      "12101": {
+        "code_type": "Fluoride",
+        "name": "Topical Fluoride Application",
+        "time": {
+          "min": 5,
+          "max": 10,
+          "unit": "minutes"
+        },
+        "notes": "Not including drying time"
+      }
+    },
+    "Sealants": {
+      "13101": {
+        "code_type": "Sealant",
+        "name": "Sealant - Per Tooth",
+        "time": {
+          "min": 10,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Common for pediatric or high-risk patients"
+      }
+    },
+    "Oral Hygiene": {
+      "14101": {
+        "code_type": "Oral Hygiene",
+        "name": "Oral Hygiene Instruction",
+        "time": {
+          "min": 10,
+          "max": 15,
+          "unit": "minutes"
+        },
+        "notes": "Included in scaling appointments"
+      }
+    }
+  },
+  "Restorative": {
+    "Amalgam Restorations": {
+      "21101": {
+        "code_type": "Amalgam Restoration",
+        "name": "Permanent Anteriors - One Surface",
+        "time": {
+          "min": 30,
+          "max": 40,
+          "unit": "minutes"
+        },
+        "notes": "Including anesthetic and preparation"
+      },
+      "21102": {
+        "code_type": "Amalgam Restoration",
+        "name": "Permanent Anteriors - Two Surfaces",
+        "time": {
+          "min": 40,
+          "max": 50,
+          "unit": "minutes"
+        },
+        "notes": "Including anesthetic and preparation"
+      }
+    },
+    "Composite Restorations": {
+      "23101": {
+        "code_type": "Composite Restoration",
+        "name": "Permanent Anteriors - One Surface",
+        "time": {
+          "min": 40,
+          "max": 50,
+          "unit": "minutes"
+        },
+        "notes": "Including bonding and curing time"
+      },
+      "23102": {
+        "code_type": "Composite Restoration",
+        "name": "Permanent Anteriors - Two Surfaces",
+        "time": {
+          "min": 50,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "notes": "Including bonding and curing time"
+      }
+    },
+    "Crowns": {
+      "27101": {
+        "code_type": "Crown",
+        "name": "Porcelain/Ceramic Crown",
+        "time": {
+          "preparation": {
+            "min": 90,
+            "max": 120,
+            "unit": "minutes"
+          },
+          "temporary": {
+            "min": 20,
+            "max": 30,
+            "unit": "minutes"
+          },
+          "cementation": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      },
+      "27711": {
+        "code_type": "Crown",
+        "name": "Temporary Crown - Direct",
+        "time": {
+          "min": 15,
+          "max": 20,
+          "unit": "minutes"
+        },
+        "notes": "After preparation"
+      }
+    },
+    "Inlays/Onlays": {
+      "28101": {
+        "code_type": "Inlay/Onlay",
+        "name": "Inlay/Onlay - Preparation",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "Including bonding and curing time"
+      }
+    },
+    "Core Buildup": {
+      "29101": {
+        "code_type": "Core Buildup",
+        "name": "Core Buildup",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "Often required before crown placement"
+      }
+    }
+  },
+  "Endodontics": {
+    "Root Canals": {
+      "33111": {
+        "code_type": "Root Canal",
+        "name": "One Canal",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "Standard uncomplicated case"
+      },
+      "33121": {
+        "code_type": "Root Canal",
+        "name": "Two Canals",
+        "time": {
+          "min": 90,
+          "max": 120,
+          "unit": "minutes"
+        },
+        "notes": "Standard uncomplicated case"
+      },
+      "33131": {
+        "code_type": "Root Canal",
+        "name": "Three Canals",
+        "time": {
+          "min": 120,
+          "max": 150,
+          "unit": "minutes"
+        },
+        "notes": "Standard molar treatment"
+      },
+      "33141": {
+        "code_type": "Root Canal",
+        "name": "Retreatment of Root Canal",
+        "time": {
+          "min": 90,
+          "max": 150,
+          "unit": "minutes"
+        },
+        "notes": "For failed root canals"
+      }
+    },
+    "Pulp Therapy": {
+      "32221": {
+        "code_type": "Pulp Therapy",
+        "name": "Pulpotomy - Permanent Tooth",
+        "time": {
+          "min": 45,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "notes": "Emergency procedure"
+      },
+      "32222": {
+        "code_type": "Pulp Therapy",
+        "name": "Pulpotomy - Primary Tooth",
+        "time": {
+          "min": 30,
+          "max": 45,
+          "unit": "minutes"
+        },
+        "notes": "Including restoration"
+      }
+    },
+    "Internal Bleaching": {
+      "34101": {
+        "code_type": "Internal Bleaching",
+        "name": "Internal Bleaching",
+        "time": {
+          "min": 30,
+          "max": 45,
+          "unit": "minutes"
+        },
+        "notes": "For discolored endodontically treated teeth"
+      }
+    }
+  },
+  "Oral Surgery": {
+    "Extractions": {
+      "71101": {
+        "code_type": "Extraction",
+        "name": "Single Tooth - Uncomplicated",
+        "time": {
+          "min": 30,
+          "max": 45,
+          "unit": "minutes"
+        },
+        "notes": "Including anesthetic time"
+      },
+      "72211": {
+        "code_type": "Extraction",
+        "name": "Odontectomy - Soft Tissue Coverage",
+        "time": {
+          "min": 45,
+          "max": 60,
+          "unit": "minutes"
+        },
+        "notes": "Simple wisdom tooth"
+      },
+      "72231": {
+        "code_type": "Extraction",
+        "name": "Odontectomy - Complete Bone Coverage",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "Complex impacted tooth"
+      }
+    },
+    "Biopsy": {
+      "73101": {
+        "code_type": "Biopsy",
+        "name": "Biopsy",
+        "time": {
+          "min": 20,
+          "max": 30,
+          "unit": "minutes"
+        },
+        "notes": "For suspicious lesions"
+      }
+    },
+    "Sinus Lift": {
+      "74101": {
+        "code_type": "Sinus Lift",
+        "name": "Sinus Lift",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "For implant placement in the maxilla"
+      }
+    }
+  },
+  "Prosthodontics": {
+    "Removable": {
+      "51101": {
+        "code_type": "Removable Prosthodontics",
+        "name": "Complete Upper Denture",
+        "time": {
+          "impression": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          },
+          "try_in": {
+            "min": 30,
+            "max": 45,
+            "unit": "minutes"
+          },
+          "delivery": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      },
+      "51301": {
+        "code_type": "Removable Prosthodontics",
+        "name": "Partial Upper Denture - Acrylic Base",
+        "time": {
+          "impression": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          },
+          "try_in": {
+            "min": 30,
+            "max": 45,
+            "unit": "minutes"
+          },
+          "delivery": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      }
+    },
+    "Fixed": {
+      "62101": {
+        "code_type": "Fixed Prosthodontics",
+        "name": "Porcelain/Ceramic Crown",
+        "time": {
+          "preparation": {
+            "min": 90,
+            "max": 120,
+            "unit": "minutes"
+          },
+          "temporary": {
+            "min": 20,
+            "max": 30,
+            "unit": "minutes"
+          },
+          "cementation": {
+            "min": 45,
+            "max": 60,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      }
+    },
+    "Implant-Supported": {
+      "63101": {
+        "code_type": "Implant-Supported Prosthodontics",
+        "name": "Implant-Supported Denture",
+        "time": {
+          "impression": {
+            "min": 60,
+            "max": 90,
+            "unit": "minutes"
+          },
+          "try_in": {
+            "min": 30,
+            "max": 45,
+            "unit": "minutes"
+          },
+          "delivery": {
+            "min": 60,
+            "max": 90,
+            "unit": "minutes"
+          }
+        },
+        "notes": "Multiple appointments required"
+      }
+    }
+  },
+  "Orthodontics": {
+    "Treatment": {
+      "80601": {
+        "code_type": "Orthodontic Treatment",
+        "name": "Orthodontic Examination and Records",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "Full documentation appointment"
+      },
+      "81121": {
+        "code_type": "Orthodontic Treatment",
+        "name": "Fixed Appliances - One Arch",
+        "time": {
+          "min": 90,
+          "max": 120,
+          "unit": "minutes"
+        },
+        "notes": "Initial bonding appointment"
+      }
+    },
+    "Clear Aligners": {
+      "82101": {
+        "code_type": "Orthodontic Treatment",
+        "name": "Clear Aligner Therapy - Initial Records",
+        "time": {
+          "min": 60,
+          "max": 90,
+          "unit": "minutes"
+        },
+        "notes": "Includes planning and impressions"
+      },
+      "82102": {
+        "code_type": "Orthodontic Treatment",
+        "name": "Clear Aligner Therapy - Aligner Delivery",
+        "time": {
+          "min": 30,
+          "max": 45,
+          "unit": "minutes"
+        },
+        "notes": "Includes instructions and fitting"
+      }
+    }
+  }
+}
