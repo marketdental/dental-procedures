@@ -74,3 +74,18 @@ if code in ada_codes["Diagnostic"]["Examinations"]:
     print(ada_codes["Diagnostic"]["Examinations"][code])
 ```
 
+## Contributing
+
+If you’d like to contribute to this repository, please:
+
+1. Fork the repository.
+2. Make your changes (e.g., add new codes, update times, or fix errors).
+3. Submit a pull request with a clear description of your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please open an issue in this repository or contact the maintainer.
