@@ -41,3 +41,36 @@ For multi-appointment procedures (e.g., crowns, dentures), the `time` field is b
   },
   "notes": "Established patient, routine evaluation"
 }
+```
+---
+## Example: CDA Code (Canada)
+
+```json
+"01101": {
+  "code_type": "Examination",
+  "name": "Complete Examination - First Visit",
+  "time": {
+    "min": 45,
+    "max": 60,
+    "unit": "minutes"
+  },
+  "notes": "Includes full charting and treatment planning"
+}
+```
+
+Example Use Case: Fetching Procedure Details
+Python Example
+
+```python
+import json
+
+# Load ADA CDT Codes
+with open('ada_cdt_codes.json', 'r') as file:
+    ada_codes = json.load(file)
+
+# Fetch details for a specific code
+code = "D0120"
+if code in ada_codes["Diagnostic"]["Examinations"]:
+    print(ada_codes["Diagnostic"]["Examinations"][code])
+```
+
